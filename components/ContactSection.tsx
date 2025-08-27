@@ -36,10 +36,10 @@ export default function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">Get In Touch</span>
+            <span className="gradient-text">Let's Create Together</span>
           </h2>
           <p className="text-xl text-white/70 max-w-3xl mx-auto">
-            Ready to create something amazing together? Let's start a conversation!
+            Ready to bring your vision to life? Let's discuss your next creative project!
           </p>
         </motion.div>
 
@@ -52,7 +52,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-3xl font-bold text-white mb-8">Send Me a Message</h3>
+            <h3 className="text-3xl font-bold text-white mb-8">Start Your Project</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -108,16 +108,16 @@ export default function ContactSection() {
                 <label htmlFor="message" className="block text-white/80 text-sm font-medium mb-2">
                   Message
                 </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={6}
-                  className="w-full px-4 py-3 bg-slate-800/50 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:border-neon-yellow focus:ring-2 focus:ring-neon-yellow/20 transition-all resize-none"
-                  placeholder="Tell me about your project..."
-                  required
-                />
+                                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={6}
+                    className="w-full px-4 py-3 bg-slate-800/50 border border-white/20 rounded-lg text-white placeholder-white/50 focus:outline-none focus:border-neon-yellow focus:ring-2 focus:ring-neon-yellow/20 transition-all resize-none"
+                    placeholder="Tell me about your creative vision..."
+                    required
+                  />
               </div>
               
               <motion.button
@@ -140,7 +140,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <h3 className="text-3xl font-bold text-white mb-8">Let's Connect</h3>
+                          <h3 className="text-3xl font-bold text-white mb-8">Let's Collaborate</h3>
             
             <div className="space-y-6">
               <motion.div
@@ -227,10 +227,10 @@ export default function ContactSection() {
               className="p-6 bg-gradient-to-r from-neon-pink/20 to-neon-blue/20 rounded-xl border border-white/10"
             >
               <h4 className="text-lg font-bold text-white mb-2">Current Status</h4>
-              <p className="text-white/70 mb-3">I'm currently available for new projects and collaborations!</p>
+              <p className="text-white/70 mb-3">I'm currently available for new creative projects and collaborations!</p>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-neon-green rounded-full animate-pulse"></div>
-                <span className="text-neon-green text-sm font-medium">Available for work</span>
+                <span className="text-neon-green text-sm font-medium">Available for creative work</span>
               </div>
             </motion.div>
           </motion.div>

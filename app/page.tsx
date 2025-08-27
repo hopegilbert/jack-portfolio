@@ -74,11 +74,11 @@ export default function Home() {
               <span className="gradient-text">Hello, I'm Jack</span>
             </h1>
             <p className="text-2xl md:text-3xl text-white/80 mb-8 font-light">
-              Creative Developer & Digital Artist
+              Digital Designer & Creative Artist
             </p>
             <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
-              I craft digital experiences that are as bright and colorful as they are functional. 
-              Let's build something amazing together! ✨
+              I create stunning digital designs, captivating artwork, and breathtaking photography. 
+              Let's bring your vision to life! ✨
             </p>
           </motion.div>
 

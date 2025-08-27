@@ -6,64 +6,64 @@ import { ExternalLink, Github, Eye, Code, Palette, Zap } from 'lucide-react'
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Brand Identity Design",
+      description: "Complete brand identity design for a modern tech startup, including logo design, color palette, typography, and brand guidelines.",
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=300&fit=crop",
+      technologies: ["Adobe Illustrator", "Photoshop", "Brand Design", "Typography"],
       github: "#",
       live: "#",
       color: "from-neon-pink to-neon-blue",
-      icon: Code
-    },
-    {
-      title: "Creative Portfolio",
-      description: "A stunning portfolio website with smooth animations and modern design. Built with Next.js and Framer Motion for an engaging user experience.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      technologies: ["Next.js", "TypeScript", "Framer Motion", "Tailwind"],
-      github: "#",
-      live: "#",
-      color: "from-neon-blue to-neon-green",
       icon: Palette
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=300&fit=crop",
-      technologies: ["Vue.js", "Firebase", "Vuex", "Vuetify"],
+      title: "Editorial Photography Series",
+      description: "A stunning editorial photography series exploring urban architecture and human connection in modern cityscapes.",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+      technologies: ["Photography", "Lightroom", "Photo Editing", "Composition"],
       github: "#",
       live: "#",
-      color: "from-neon-green to-neon-yellow",
-      icon: Zap
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A beautiful weather application with interactive maps, detailed forecasts, and location-based services using modern APIs.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&h=300&fit=crop",
-      technologies: ["React", "OpenWeather API", "Mapbox", "Chart.js"],
-      github: "#",
-      live: "#",
-      color: "from-neon-yellow to-neon-orange",
+      color: "from-neon-blue to-neon-green",
       icon: Eye
     },
     {
-      title: "Social Media Clone",
-      description: "A social media platform with features like posts, comments, likes, and real-time notifications using WebSocket technology.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      technologies: ["React", "Socket.io", "Express", "PostgreSQL"],
+      title: "Digital Art Collection",
+      description: "A vibrant collection of digital artwork featuring abstract compositions and experimental color theory.",
+      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=500&h=300&fit=crop",
+      technologies: ["Digital Art", "Procreate", "Color Theory", "Composition"],
+      github: "#",
+      live: "#",
+      color: "from-neon-green to-neon-yellow",
+      icon: Palette
+    },
+    {
+      title: "UI/UX Design System",
+      description: "Comprehensive design system for a mobile app, including user interface components, user experience flows, and interactive prototypes.",
+      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop",
+      technologies: ["Figma", "UI/UX Design", "Prototyping", "User Research"],
+      github: "#",
+      live: "#",
+      color: "from-neon-yellow to-neon-orange",
+      icon: Zap
+    },
+    {
+      title: "Product Photography",
+      description: "Professional product photography showcasing lifestyle and commercial applications with creative lighting and composition.",
+      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&h=300&fit=crop",
+      technologies: ["Product Photography", "Lighting", "Composition", "Post-Processing"],
       github: "#",
       live: "#",
       color: "from-neon-orange to-neon-pink",
-      icon: Code
+      icon: Eye
     },
     {
-      title: "AI Chat Application",
-      description: "An intelligent chat application powered by AI with natural language processing, sentiment analysis, and smart responses.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
-      technologies: ["Python", "OpenAI API", "FastAPI", "React"],
+      title: "Illustration Series",
+      description: "A whimsical illustration series featuring character design and storytelling through visual narratives and expressive artwork.",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=300&fit=crop",
+      technologies: ["Illustration", "Character Design", "Storytelling", "Digital Drawing"],
       github: "#",
       live: "#",
       color: "from-neon-pink to-neon-blue",
-      icon: Zap
+      icon: Palette
     }
   ]
 
@@ -78,10 +78,10 @@ export default function ProjectsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">My Projects</span>
+            <span className="gradient-text">My Work</span>
           </h2>
           <p className="text-xl text-white/70 max-w-3xl mx-auto">
-            Here are some of the exciting projects I've worked on. Each one tells a unique story of creativity and innovation.
+            Here are some of my creative projects. Each piece tells a unique story through design, photography, and digital art.
           </p>
         </motion.div>
 
@@ -139,8 +139,8 @@ export default function ProjectsSection() {
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-neon-pink to-neon-blue text-white rounded-lg text-sm font-medium hover:glow transition-all"
                     >
-                      <Github size={16} />
-                      <span>Code</span>
+                      <Eye size={16} />
+                      <span>View</span>
                     </motion.a>
                     <motion.a
                       href={project.live}
@@ -149,7 +149,7 @@ export default function ProjectsSection() {
                       className="flex items-center space-x-2 px-4 py-2 border border-neon-green text-neon-green rounded-lg text-sm font-medium hover:bg-neon-green hover:text-black transition-all"
                     >
                       <ExternalLink size={16} />
-                      <span>Live</span>
+                      <span>Details</span>
                     </motion.a>
                   </div>
                 </div>
@@ -166,13 +166,13 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 bg-gradient-to-r from-neon-pink via-neon-blue to-neon-green text-white font-semibold rounded-full glow hover:shadow-lg transition-all duration-300"
-          >
-            View All Projects
-          </motion.button>
+                      <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-8 py-4 bg-gradient-to-r from-neon-pink via-neon-blue to-neon-green text-white font-semibold rounded-full glow hover:shadow-lg transition-all duration-300"
+            >
+              View All Work
+            </motion.button>
         </motion.div>
       </div>
     </section>

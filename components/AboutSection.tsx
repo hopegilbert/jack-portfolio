@@ -5,14 +5,14 @@ import { User, MapPin, Mail, Github, Linkedin, Twitter } from 'lucide-react'
 
 export default function AboutSection() {
   const skills = [
-    { name: 'React', color: 'from-blue-400 to-cyan-400' },
-    { name: 'TypeScript', color: 'from-blue-600 to-blue-800' },
-    { name: 'Node.js', color: 'from-green-400 to-green-600' },
-    { name: 'Python', color: 'from-yellow-400 to-orange-400' },
-    { name: 'AWS', color: 'from-orange-400 to-red-400' },
-    { name: 'Docker', color: 'from-blue-500 to-blue-700' },
-    { name: 'MongoDB', color: 'from-green-500 to-green-700' },
-    { name: 'GraphQL', color: 'from-pink-500 to-purple-500' },
+    { name: 'Digital Design', color: 'from-neon-pink to-neon-blue' },
+    { name: 'Photography', color: 'from-neon-blue to-neon-green' },
+    { name: 'Adobe Creative Suite', color: 'from-neon-green to-neon-yellow' },
+    { name: 'Digital Art', color: 'from-neon-yellow to-neon-orange' },
+    { name: 'UI/UX Design', color: 'from-neon-orange to-neon-pink' },
+    { name: 'Photo Editing', color: 'from-neon-pink to-neon-blue' },
+    { name: 'Illustration', color: 'from-neon-blue to-neon-green' },
+    { name: 'Brand Design', color: 'from-neon-green to-neon-yellow' },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function AboutSection() {
             <span className="gradient-text">About Me</span>
           </h2>
           <p className="text-xl text-white/70 max-w-3xl mx-auto">
-            I'm a passionate developer who loves creating digital experiences that make people smile
+            I'm a passionate digital artist who loves creating visual experiences that inspire and captivate
           </p>
         </motion.div>
 
@@ -99,22 +99,22 @@ export default function AboutSection() {
           >
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-white mb-4">
-                Creative Developer & Problem Solver
+                Digital Designer & Visual Artist
               </h3>
               <p className="text-lg text-white/70 leading-relaxed">
-                I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly applications. 
-                With over 5 years of experience in web development, I've worked on everything from small business websites 
-                to large-scale enterprise applications.
+                I'm a digital designer and visual artist with a passion for creating stunning, impactful designs that tell stories. 
+                With expertise in digital design, photography, and digital art, I've worked on everything from brand identities 
+                to editorial photography and digital illustrations.
               </p>
               <p className="text-lg text-white/70 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing my knowledge with the developer community. I believe in writing clean, maintainable code 
-                and creating experiences that users love.
+                When I'm not creating, you can find me exploring new techniques, experimenting with different mediums, 
+                or capturing the world through my lens. I believe in creating designs that not only look beautiful 
+                but also communicate powerful messages and evoke emotions.
               </p>
             </div>
 
             <div>
-              <h4 className="text-2xl font-bold text-white mb-6">Skills & Technologies</h4>
+              <h4 className="text-2xl font-bold text-white mb-6">Skills & Expertise</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {skills.map((skill, index) => (
                   <motion.div
