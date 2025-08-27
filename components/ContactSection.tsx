@@ -152,7 +152,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-white/70">jack@example.com</p>
+                  <p className="text-white/70">jackg2006@icloud.com</p>
                 </div>
               </motion.div>
 
@@ -178,7 +178,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Location</h4>
-                  <p className="text-white/70">San Francisco, CA</p>
+                  <p className="text-white/70">Leeds, UK</p>
                 </div>
               </motion.div>
             </div>

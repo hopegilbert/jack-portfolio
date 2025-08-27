@@ -7,7 +7,7 @@ export default function AboutSection() {
   const skills = [
     { name: 'Digital Design', color: 'from-neon-pink to-neon-blue' },
     { name: 'Photography', color: 'from-neon-blue to-neon-green' },
-    { name: 'Adobe Creative Suite', color: 'from-neon-green to-neon-yellow' },
+    { name: 'Adobe', color: 'from-neon-green to-neon-yellow' },
     { name: 'Digital Art', color: 'from-neon-yellow to-neon-orange' },
     { name: 'UI/UX Design', color: 'from-neon-orange to-neon-pink' },
     { name: 'Photo Editing', color: 'from-neon-pink to-neon-blue' },
@@ -56,11 +56,11 @@ export default function AboutSection() {
             <div className="space-y-4">
               <div className="flex items-center justify-center space-x-4 text-white/80">
                 <MapPin className="w-5 h-5 text-neon-pink" />
-                <span>San Francisco, CA</span>
+                <span>Leeds, UK</span>
               </div>
               <div className="flex items-center justify-center space-x-4 text-white/80">
                 <Mail className="w-5 h-5 text-neon-blue" />
-                <span>jack@example.com</span>
+                <span>jackg2006@icloud.com</span>
               </div>
             </div>
 
