@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/jack-portfolio',
-  assetPrefix: '/jack-portfolio/',
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  trailingSlash: process.env.NODE_ENV === 'production',
+  basePath: process.env.NODE_ENV === 'production' ? '/jack-portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/jack-portfolio/' : '',
   images: {
     unoptimized: true,
     domains: ['images.unsplash.com', 'via.placeholder.com'],
