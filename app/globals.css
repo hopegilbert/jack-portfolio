@@ -116,4 +116,31 @@ a {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .gradient-text {
+    background-size: 200% 200%;
+  }
+  
+  /* Improve touch targets */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Better spacing for mobile */
+  .space-y-6 > * + * {
+    margin-top: 1.25rem;
+  }
+  
+  /* Optimize floating animations for mobile */
+  .animate-float {
+    animation-duration: 4s;
+  }
+  
+  .animate-pulse-slow {
+    animation-duration: 3s;
+  }
 } 

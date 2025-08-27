@@ -77,15 +77,15 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">My Work</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-white/70 max-w-3xl mx-auto px-4">
             Here are some of my creative projects. Each piece tells a unique story through design, photography, and digital art.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.title}
@@ -132,7 +132,7 @@ export default function ProjectsSection() {
                   </div>
 
                   {/* Project Links */}
-                  <div className="flex space-x-4">
+                  <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
                     <motion.a
                       href={project.github}
                       whileHover={{ scale: 1.05 }}

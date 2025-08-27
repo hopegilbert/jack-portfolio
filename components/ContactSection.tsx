@@ -35,15 +35,15 @@ export default function ContactSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">Let's Create Together</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-white/70 max-w-3xl mx-auto px-4">
             Ready to bring your vision to life? Let's discuss your next creative project!
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -52,7 +52,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-3xl font-bold text-white mb-8">Start Your Project</h3>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-8">Start Your Project</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -140,7 +140,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-                          <h3 className="text-3xl font-bold text-white mb-8">Let's Collaborate</h3>
+                          <h3 className="text-2xl sm:text-3xl font-bold text-white mb-8">Let's Collaborate</h3>
             
             <div className="space-y-6">
               <motion.div
